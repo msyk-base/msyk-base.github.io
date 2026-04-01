@@ -40,3 +40,21 @@
 }
 
 }
+
+
+@layer layout {
+  .wrapper {
+    margin: 0;
+    padding: 0;
+}
+
+  .l-box {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    background-color: #99d8ff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+}
