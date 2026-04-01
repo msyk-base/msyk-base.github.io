@@ -49,7 +49,7 @@
   .wrapper {
     margin: 0;
     padding: 0;
-}
+  }
 
   .l-box {
     padding-left: 20px;
@@ -58,14 +58,14 @@
     background-color: #99d8ff;
     margin-left: auto;
     margin-right: auto;
-    }
+  }
 
 }
 
 
 
 @layer components {
-  .main-box {
+  .c-card {
   border: 1px solid #000000;
   margin-top: 10px;
   padding: 10px;
