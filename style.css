@@ -54,8 +54,6 @@
   .l-box {
     width: 100%;
     background-color: #99d8ff;
-    margin-left: auto;
-    margin-right: auto;
   }
 
 }
@@ -66,7 +64,8 @@
   .c-card {
   max-width: 1000px;
   border: 1px solid #000000;
-  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 16px;
   }
 
