@@ -30,7 +30,7 @@
   html {
     /* box-sizingはresetで完結させるなら不要 */
     font-family: sans-serif;
-    line-height: 1.5;
+    line-height: 1.0;
     -webkit-text-size-adjust: 100%; /* モバイルでの文字サイズ自動調整防止 */
   }
 
