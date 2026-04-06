@@ -36,7 +36,7 @@
 
 @media (min-width: 768px) {
   body {
-    padding-top: 40px; /* ヘッダー50px + 余裕10px 下げる */
+    /* padding-top: 40px;  ヘッダー50px + 余裕10px 下げる */
     background-color: #e6eae6; /* 背景色 フロスティホワイト */
   }
 }
