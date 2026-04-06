@@ -61,11 +61,11 @@
   }
   
    .bk-bl {
-    background-color: #99d8ff;
+    color: #333333; background-color: #99d8ff;
   }
 
     .bk-bk {
-    background-color: #99d8ff;
+    color: #ffffff; background-color: #333333;
   }
 
 }
