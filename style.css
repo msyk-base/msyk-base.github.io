@@ -75,7 +75,7 @@
 @layer components {
   .c-card {
   max-width: 1000px;
-  border: 1px solid #000000;
+  outline: 1px solid #000000;
   margin-left: auto;
   margin-right: auto;
   padding: 16px;
