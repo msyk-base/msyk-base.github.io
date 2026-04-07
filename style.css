@@ -30,7 +30,7 @@
   html {
     /* box-sizingはresetで完結させるなら不要 */
     font-family: sans-serif;
-    line-height: 1.0;
+    line-height: 1.5;
     -webkit-text-size-adjust: 100%; /* モバイルでの文字サイズ自動調整防止 */
   }
 
@@ -76,22 +76,6 @@
   .c-card {
   max-width: 1000px;
   outline: 1px solid #000000;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 16px;
-  }
-
-  .c-card-bg {
-  max-width: 1000px;
-  border: 1px solid #000000;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 16px;
-  }
-
-  .c-card-bgbk {
-  max-width: 1000px;
-  border: 1px solid #333333;
   margin-left: auto;
   margin-right: auto;
   padding: 16px;
