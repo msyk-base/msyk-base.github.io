@@ -76,12 +76,19 @@
   .l-box {
     width: 100%;
   }
+
+  .l-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    min-height: 500px;
+  }
   
-   .bk-bl {
-    color:  var(--color-black); background-color: var(--color-blue);
+  .bg-blue {
+    color: var(--color-black); background-color: var(--color-blue);
   }
 
-    .bk-bk {
+  .bg-black {
     color: var(--color-white); background-color: var(--color-black);
   }
 
@@ -91,12 +98,8 @@
 
 @layer components {
   .c-card {
-  max-width: 1000px;
-  min-height: 500px;
-  /* outline: 0px solid #000000; 1pxにするとなぜかずれる */
-  margin-left: auto;
-  margin-right: auto;
-  padding: var(--sp-1);
+  padding-top: var(--sp-1);
+  padding-bottom: var(--sp-1);
   }
 
   .youtube {
