@@ -46,11 +46,17 @@
   height: auto;
 }
 
+:root {
+  --color-navy: #000080; /* ネイビー */
+  --color-white: #e6eae6; /* フロスティホワイト */
+  --color-black: #333333;
+  --color-blue: #99d8ff;
+}
+
 .mt-50 {
  margin-top: 50px;
 }
 
-  
 
 }
 
