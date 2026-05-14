@@ -51,6 +51,11 @@
   --color-white: #e6eae6; /* フロスティホワイト */
   --color-black: #333333;
   --color-blue: #99d8ff;
+  
+  --base-space: 8px;                   /* 基本 */
+  --sp-1: var(--base-space);           /* 8px */
+  --sp-2: calc(var(--base-space) * 2); /* 16px */
+  --sp-3: calc(var(--base-space) * 4); /* 32px */
 }
 
 .mt-50 {
@@ -73,11 +78,11 @@
   }
   
    .bk-bl {
-    color: #333333; background-color: #99d8ff;
+    color:  var(--color-black); background-color: var(--color-white);
   }
 
     .bk-bk {
-    color: #ffffff; background-color: #333333;
+    color: var(--color-white); background-color: var(--color-black);
   }
 
 }
