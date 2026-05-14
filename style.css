@@ -34,16 +34,9 @@
     -webkit-text-size-adjust: 100%; /* モバイルでの文字サイズ自動調整防止 */
   }
 
-@media (min-width: 768px) {
-  body {
-    /* padding-top: 40px;  ヘッダー50px + 余裕10px 下げる */
-    background-color: #e6eae6; /* 背景色 フロスティホワイト */
-  }
-}
-
   img, video {
-  max-width: 100%;
-  height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 :root {
@@ -62,6 +55,13 @@
  margin-top: 50px;
 }
 
+@media (min-width: 768px) {
+  body {
+    /* padding-top: 40px;  ヘッダー50px + 余裕10px 下げる */
+    background-color: #e6eae6; /* 背景色 フロスティホワイト */
+  }
+}
+
 
 }
 
@@ -78,7 +78,7 @@
   }
   
    .bk-bl {
-    color:  var(--color-black); background-color: var(--color-white);
+    color:  var(--color-black); background-color: var(--color-blue);
   }
 
     .bk-bk {
@@ -92,11 +92,11 @@
 @layer components {
   .c-card {
   max-width: 1000px;
-  min-height: 500px;				/* 最小の高さ */
-  outline: 0px solid #000000; /* 1pxにするとなぜかずれる */
+  min-height: 500px;
+  /* outline: 0px solid #000000; 1pxにするとなぜかずれる */
   margin-left: auto;
   margin-right: auto;
-  padding: 16px;
+  padding: var(--sp-1);
   }
 
   .youtube {
