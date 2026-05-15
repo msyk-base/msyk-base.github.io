@@ -99,6 +99,8 @@
 @layer components {
   .c-card {
   padding-top: var(--sp-1);
+  margin-left: var(--sp-1);
+  margin-right: var(--sp-1);
   padding-bottom: var(--sp-1);
   }
 
