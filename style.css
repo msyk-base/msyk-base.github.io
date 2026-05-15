@@ -58,7 +58,7 @@
 @media (min-width: 768px) {
   body {
     /* padding-top: 40px;  ヘッダー50px + 余裕10px 下げる */
-    background-color: #e6eae6; /* 背景色 フロスティホワイト */
+    background-color: var(--color-white); /* 背景色 フロスティホワイト */
   }
 }
 
@@ -98,20 +98,27 @@
 
 @layer components {
   .c-card {
-  padding-top: var(--sp-1);
-  margin-left: var(--sp-1);
-  margin-right: var(--sp-1);
-  padding-bottom: var(--sp-1);
+    padding-top: var(--sp-1);
+    padding-bottom: var(--sp-1);
+    margin-left: var(--sp-1);
+    margin-right: var(--sp-1);
   }
 
   .youtube {
-  width: 100%;
-  aspect-ratio: 16 / 9;
+    width: 100%;
+    aspect-ratio: 16 / 9;
   }
 
   .youtube iframe {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-width: 768px) {
+  .c-card {
+    padding-top: var(--sp-1);
+    padding-bottom: var(--sp-1);
+  }
 }
 
 }
